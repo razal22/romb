@@ -12,12 +12,12 @@ public class TombTest {
 public void setUp(){
     this.tomb = new Tomb();
 }
-}
+
 
     @Test
-    public void testCalcTomb_8_30_40(){
-        double actual = this.tomb.CalcTomb(8,30,40);
-        double expected = 41.1;
+    public void testCalcTomb_8_30(){
+        double actual = this.tomb.CalcTombTer(8,30);
+        double expected = 32;
         Assert.assertEquals(actual, expected,0.1);
     }
-    
+}
