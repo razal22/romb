@@ -19,5 +19,9 @@ public void setUp(){
         double actual = this.tomb.CalcTombTer(8,30);
         double expected = 32;
         Assert.assertEquals(actual, expected,0.1);
+
+        double Kactual = this.tomb.CalcTombKer(8,30);
+        double Kexpected = 32;
+        Assert.assertEquals(Kactual, Kexpected,0.1);
     }
 }
